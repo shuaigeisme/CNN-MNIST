@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env
+
+# PyTorch 模型权重 / 检查点
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+runs/
+checkpoints/
+
+# 数据集(MNIST 体积小但也建议用代码下载,不入仓)
+data/
+*.npz
+*.npy
+*.h5
+*.hdf5
+
+# 日志与可视化
+*.log
+logs/
+wandb/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.bak
+.tmp/
