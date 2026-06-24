@@ -1,4 +1,4 @@
-# CNN-MNIST · 简单的卷积神经网络手写数字识别
+# CNN-MNIST · 简单的卷积神经网络手写数字识别-用于教学
 
 一个用 **PyTorch** 实现的轻量级卷积神经网络(CNN),用于 MNIST 手写数字识别。
 模型结构:两层卷积(带 BN + ReLU + MaxPool)+ 两层全连接(含 Dropout)。
