@@ -49,13 +49,37 @@ Epoch 2/5  loss=0.0721  train_acc=0.9778  test_acc=0.9855
 | 训练集准确率 | ~99% |
 | 测试集准确率 | ~99% |
 
+### 📈 训练曲线
+
+![Training Curves](assets/training_curves.png)
+
+### 🔢 混淆矩阵
+
+![Confusion Matrix](assets/confusion_matrix.png)
+
+### 🖼️ 样例预测
+
+![Sample Predictions](assets/sample_predictions.png)
+
+> 💡 上面三张图是用 `visualize.py` 训练完模型后自动生成的。
+> 当前仓库中放的是**示例图**(首次上传占位),你可以:
+> ```bash
+> python visualize.py
+> ```
+> 用真实训练结果**一键覆盖**它们。
+
 ## 📁 目录结构
 
 ```
-.
-├── CNN_case.py        # 模型定义 + 训练/评估入口
-├── .gitignore         # 忽略 data/、__pycache__/、*.pth 等
-└── README.md          # 本文件
+CNN-MNIST/
+├── CNN_case.py             # 模型定义 + 训练/评估入口
+├── visualize.py            # 训练后生成 README 用图(曲线/混淆矩阵/样例)
+├── assets/                 # README 引用图片
+│   ├── training_curves.png
+│   ├── confusion_matrix.png
+│   └── sample_predictions.png
+├── .gitignore              # 忽略 data/、__pycache__/、*.pth 等
+└── README.md               # 本文件
 ```
 
 ## 📝 License
